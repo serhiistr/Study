@@ -1,10 +1,28 @@
-while True:
-    a = input()
-    if a == "exit":
+i = 1
+while i<=15:
+    print(i)
+    if i == 5
         break
-    if len(a)<5:
-        continue
-    print(a, len(a))
+    i +=1
+else:
+    print("good")
+    print("gob")
+print("end")
+
+
+
+
+
+
+#while True:
+#    a = input()
+ #   if a == "exit":
+ #       break
+ #   if len(a)<5:
+ #       continue
+ #   print(a, len(a))
+
+
 
 
 #a, b = map(int, input().split())

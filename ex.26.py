@@ -37,7 +37,40 @@
 a = {4, 3, 2, 1}
 b = {3, 4, 5, 6, 7}
 c = {10, 11, 12}
-print(a & b) #пересечение множества
-a&= c
-print(a, c)
+# print(a & b) # пересечение множества
+# a&= b
+# print(a, b)
 
+# print(a.intersection(b))
+# print(a, b)
+
+# print(a.intersection_update(b))
+# print(a, b)
+
+# обьединение списков делается без дублей
+# print(a | b)
+# print(a.union(b))
+# a = a.union(b)
+# print(a)
+
+# вычетание из множества
+# print(a-b)
+
+# симметричная разность
+# print(a ^ b)
+
+# сравнение множеств больше меньше равно
+# print(a == b)
+
+# a = {40, 23, 12, 19} # обход по значению, по индексу не поддерживается
+# for i in a:
+#     print(i)
+
+text = input()
+a = set()
+while text!= "":
+    slova = text.split()
+    a.update(slova)
+    # print(a)
+    text = input()
+print(len(a))

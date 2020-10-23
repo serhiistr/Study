@@ -1,4 +1,5 @@
 import random
+import requests
 
 
 passwords_data = """password
@@ -606,3 +607,8 @@ generator = GoodPasswordGenerator()
 
 print(generator.next())
 print(generator.next())
+
+response = requests.get("https://google.com/")
+
+print(response.status_code)
+#print(response.text)

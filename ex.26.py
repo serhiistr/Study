@@ -66,11 +66,14 @@ c = {10, 11, 12}
 # for i in a:
 #     print(i)
 
-text = input()
-a = set()
-while text!= "":
-    slova = text.split()
-    a.update(slova)
-    # print(a)
-    text = input()
-print(len(a))
+# text = input()
+# a = set()
+# while text!= "":
+#     slova = text.split()
+#     a.update(slova)
+#     # print(a)
+#     text = input()
+# print(len(a))
+
+a, b, c = map(int, input().split())
+print(a+b+c)
